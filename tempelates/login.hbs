@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+<div class="wrapper">
+        <div class="title"><span>Admin Login</span></div>
+    
+    <form action="/login" method="post" >
+    <div class="row">
+        <input placeholder="Email" name="email" type="text">
+      </div>  
+    <div class="row">
+        <input placeholder="Password" name="password" type="password"><br>
+     </div>   
+     <div class="row">
+        <input class="sub" type="submit">
+        </div>
+
+    <a href="/forgot-password">Forgot Password</a>
+
+     <h3 class="row">Dont have a account ?</h3><br>
+    <a  href="/signup">Create a new account</a>
+    
+    </form>
+</div>
+</body>
+  
+</html>
